@@ -19,13 +19,11 @@
         
         function counter() {
             if (message == 1) {
-                alert("Es muy poco");
-            }
-            else if (message > 2 && message < 4) {
-                alert("No está mal");
-            }
-            else {
-                alert("Son muchos!");
+                document.getElementById("test").innerHTML = "Es muy poco";
+            } else if (message > 2 && message < 4) {
+                document.getElementById("test").innerHTML = "No está mal";
+            } else {
+                document.getElementById("test").innerHTML = "Son muchos";
             }
         }
         
